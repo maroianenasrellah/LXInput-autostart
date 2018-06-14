@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=LXInput autostart
+Comment=Setup keyboard and mouse using settings done in LXInput
+Hidenn=false
+NoDisplay=false
+Exec=sh -c 'xset m 20/10 10 r rate 500 30 b on; xinput --set-prop "pointer:Compx 2.4G Receiver" "libinput Accel Speed" 0.000000'
+##Exec=sudo python3 /home/pi/MFRC522-python-master/Read30.py
+##NotShowIn=GNOME;KDE;XFCE;
+X-GNOME-Autostart-enable=true
